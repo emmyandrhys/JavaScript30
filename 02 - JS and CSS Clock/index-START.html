@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS + CSS Clock</title>
+</head>
+<body>
+
+
+    <div class="analog12">
+      <h1 class="analog12-hour"></h1>
+      <h1 class="colon">:</h1>
+      <h1 class="analog12-minute"></h1>
+    </div>
+    <div class="clock">
+      <div class="clock-face">
+        <div class="hand hour-hand"></div>
+        <div class="hand min-hand"></div>
+        <div class="hand second-hand"></div>
+      </div>
+      <div class="analog">
+        <h1 class="analog-hour"></h1>
+        <h1 class="colon">:</h1>
+        <h1 class="analog-minute"></h1>
+      </div>
+    </div>
+
+
+  <style>
+    html {
+      background: #018DED url(rainbowpaper.jpg);
+      background-size: cover;
+      font-family: 'helvetica neue';
+      text-align: center;
+      font-size: 24px;
+    }
+
+    body {
+      margin: 0;
+      font-size: 2rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+    .analog12 {
+      font-size: 64px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content:end;
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .clock {
+      width: 30rem;
+      height: 30rem;
+      border: 20px solid white;
+      border-radius: 50%;
+      margin: 50px auto;
+      position: relative;
+      padding: 2rem;
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .clock-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-3px); /* account for the height of the clock hands */
+    }
+
+    .hand {
+      width: 50%;
+      height: 10px;
+      background: black;
+      position: absolute;
+      top: 50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+    }
+    .hour-hand {
+      background-color:#ff66ff;
+    }
+    .min-hand {
+      background-color: #66ffe6;
+    }
+    .second-hand {
+      background-color: #6619ff;
+    }
+    .analog {
+      font-size: 64px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+    }
+  </style>
+
+  <script>
+    const secondHand = document.querySelector('.second-hand');
+    const minuteHand = document.querySelector('.min-hand');
+    const hourHand = document.querySelector('.hour-hand');
+    const analogHour = document.querySelector('.analog-hour');
+    const analogMinute = document.querySelector('.analog-minute');
+    const analog12hour = document.querySelector('.analog12-hour');
+    const analog12minute = document.querySelector('.analog12-minute');
+
+    function setDate() {
+      const now = new Date();
+
+      const seconds = now.getSeconds();
+      const secondsDegrees = (seconds * 6) + 90;
+      secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+      if(seconds ==0 || seconds == 59) {
+        secondHand.style.transition = 'step-end';
+      }
+      else {
+        secondHand.style.transition='0.05s';
+        secondHand.style['transition-timing-function']='cubic-bezier(0, 1.35, 0, 1.6)';
+      }
+      const minutes = now.getMinutes();
+      const minuteDegrees = (minutes * 6) + 90;
+      minuteHand.style.transform = `rotate(${minuteDegrees}deg)`
+      if(minutes ==0) {
+        minuteHand.style.transition='step-end';
+      }
+      else {
+        minuteHand.style.transition='0.05s';
+        minuteHand.style['transition-timing-function']='cubic-bezier(0, 1.35, 0, 1.6)';
+      }
+      const hours = now.getHours();
+      const hourDegrees = (hours * 30) + 90;
+      hourHand.style.transform = `rotate(${hourDegrees}deg)`;
+      if(hours == 12) {
+        hourHand.style.transition='step-end';
+      
+      }
+      else {
+        hourHand.style.transition='0.05s';
+        hourHand.style['transition-timing-function']='cubic-bezier(0, 1.35, 0, 1.6)';
+      }
+      if (hours < 10) {
+        analogHour.innerHTML= `0${hours}`;
+        analog12hour.innerHTML=`0${hours}`;
+      }
+      else if (hours > 12) {
+        analogHour.innerHTML=`${hours}`;
+        var hour12 = hours - 12;
+        analog12hour.innerHTML=`${hour12}`;
+      }
+      else {
+        analogHour.innerHTML= `${hours}`;
+        analog12hour.innerHTML=`${hours}`;
+      }
+      if (minutes > 9) {
+        analogMinute.innerHTML=`${minutes}`;
+        analog12minute.innerHTML=`${minutes}`;
+
+      }
+      else {
+        analogMinute.innerHTML=`0${minutes}`;
+        analog12minute.innerHTML=`0${minutes}`;
+
+      }
+    }
+    setInterval(setDate, 1000);
+
+  </script>
+</body>
+</html>

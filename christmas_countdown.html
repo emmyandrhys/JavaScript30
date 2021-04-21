@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rhys, the Elf Pet Trainer, Christmas Countdown</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1 class='timeUntil'></h1>
+        </div>
+        <img src="christmas badge,badge,sale,offer,christmas offer,discount,tag,shopping,1619931.svg" width='200px'>
+        <div>
+            <h1 class='daysUntil'></h1>
+        </div>
+        <img src="aint_nobody_got_time_for_that.svg" width="100vw">
+
+        <style>
+            body {
+                background-image: url(ChristmaspatternwithcuteanimalsSanta.jpg);
+                background-size: cover;
+                font-family: 'Lobster Two', cursive;
+                font-size: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+                color: red;
+                text-shadow: 5px 5px 3px green, 
+                            5px -5px 3px green, 
+                            -5px 5px 3px green, 
+                            -5px -5px 3px green, 
+                            5px 0px 3px green, 
+                            0px 5px 3px green, 
+                            -5px 0px 3px green, 
+                            0px -5px 3px green,
+                            3px 0px 3px green, 
+                            0px 3px 3px green, 
+                            -3px 0px 3px green, 
+                            0px -3px 3px green,
+                            3px 3px 3px green, 
+                            3px 3px 3px green, 
+                            -3px 3px 3px green, 
+                            3px -3px 3px green,
+                            2px 0px 3px green, 
+                            0px 2px 3px green, 
+                            -2px 0px 3px green, 
+                            0px -2px 3px green;
+            }
+            h1 {
+                margin-left: 20%;
+                margin-right: 20%;
+                align-content: center;
+                text-align: center;
+            }
+            img {
+                margin-right: auto;
+                margin-left: auto;
+            }
+        </style>
+        <script>
+            const timeUntil = document.querySelector('.timeUntil');
+            const dayUntil = document.querySelector('.daysUntil');
+            const christmasMonth = 12;
+            const christmasDate = 25;
+            
+            function getDate() {
+                const now = new Date();
+                console.log(now);
+                const minutes = now.getMinutes();
+                const hours = now.getHours();
+                const days = now.getDate();
+                const months = now.getMonth() + 1;
+                const daysInMonth = [[0,0], [1,31], [2,28], [3, 31], [4,30],[5, 31], [6,30],[7, 31],[8,31],[9,30],[10,31],[11,30]];
+                const minutesLeft = 60-minutes;
+                const hoursLeft = 24-hours-1;
+                const daysLeft = daysInMonth[months][1] - days - 1;
+                const monthsLeft = 11-months;
+                
+                var totalDaysLeft = daysLeft;
+                for (var i=months + 1; i < 12; i++) {
+                    totalDaysLeft += daysInMonth[i][1];
+                 }
+                const timeUntilChristmas = `${monthsLeft} months, ${daysLeft} days, ${hoursLeft} hours, and ${minutesLeft} minutes left until the big day!`;
+                const daysUntilChristmas = `That means there are just ${totalDaysLeft} days left to get ready for Christmas!`;
+                dayUntil.innerHTML= daysUntilChristmas;
+                timeUntil.innerHTML= timeUntilChristmas;
+            }
+            getDate();
+        </script>
+    </body>
+</html>

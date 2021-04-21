@@ -1,0 +1,67 @@
+<svg class="drumset" id="f54adf61-a9a9-48c0-81ce-cfa12f98da23" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 368.35 260.2">
+    <g class="bass" id="bass" data-name="bass">
+        <g data-name="bass">
+            <path d="M7234.85,7015.68s26.9-5.2,36.07-6.07c16.1-1.54,48.76-1.19,64.91,0,10.35.76,40.81,6.07,40.81,6.07v110.6s-28.27,3.29-37.77,3.76c-14.4.72-43.31.7-57.7,0-11.63-.56-46.32-3.76-46.32-3.76Z" transform="translate(-7126.72 -6982.37)" style="fill:url(#a7f41eaf-eba0-4cb4-a5b2-1243d1678886)"/>
+            <path d="M7232.1,7025.94s7.87-5.27,28.52-9.26c18.84-3.64,22.17-3.64,46.42-3.64,22.06,0,46.73,2.65,57.12,5.11,3.58.84,14.12,6,14.38,6.39.85,1.37,1.13,2.7.11,3.22s-1.33-.48-5.62-2.64c-2.42-1.22-5.61-2.06-8.12-3.14-7.29-3.15-42.15-5.62-57.88-5.62-14.67,0-26.12-.5-43.91,3.13-12.42,2.54-19.57,5.21-23.32,6.79-1.6.67-4.89,3.55-6,3.14C7232.46,7029,7231.94,7027.06,7232.1,7025.94Z" transform="translate(-7126.72 -6982.37)" style="fill:#b3b3b3"/>
+            <polygon points="202.84 25.03 210.15 25.51 209.44 60.14 205.84 59.74 206.69 34.92 203.6 30.79 202.79 25.52 202.84 25.03" style="fill:#b3b3b3"/>
+            <polygon points="147.89 25.4 140.59 26.01 142.31 60.61 145.9 60.15 144.32 35.35 147.29 31.17 147.94 25.89 147.89 25.4" style="fill:#b3b3b3"/>
+            <polygon points="244.5 30.99 251.8 31.59 250.44 66.21 246.85 65.75 248.17 40.94 245.16 36.76 244.45 31.48 244.5 30.99" style="fill:#b3b3b3"/>
+            <polygon points="113.09 32.35 105.8 32.96 107.17 67.58 110.77 67.11 109.43 42.3 112.44 38.12 113.15 32.84 113.09 32.35" style="fill:#b3b3b3"/>
+            <path d="M7233.09,7114.19s7.87,3.55,28.52,6.24c18.84,2.45,22.17,2.45,46.42,2.45,22.07,0,46.73-1.78,57.12-3.44a107.88,107.88,0,0,0,14.39-4.3c.84-.93,1.12-1.82.1-2.17s-1.33.32-5.62,1.78c-2.41.82-5.61,1.39-8.12,2.11-7.28,2.12-42.15,3.78-57.87,3.78-14.67,0-26.12.35-43.92-2.1a169.5,169.5,0,0,1-23.32-4.57c-1.59-.45-4.89-2.4-6-2.12A2.15,2.15,0,0,0,7233.09,7114.19Z" transform="translate(-7126.72 -6982.37)" style="fill:#b3b3b3"/>
+            <polygon points="203.83 149.15 211.14 148.67 210.44 114.04 206.83 114.44 207.69 139.26 204.59 143.4 203.79 148.66 203.83 149.15" style="fill:#b3b3b3"/>
+            <polygon points="148.88 148.78 141.58 148.17 143.3 113.57 146.89 114.03 145.31 138.83 148.28 143.01 148.94 148.29 148.88 148.78" style="fill:#b3b3b3"/>
+            <polygon points="245.49 145.19 252.79 144.59 251.44 109.97 247.84 110.44 249.16 135.24 246.15 139.43 245.44 144.7 245.49 145.19" style="fill:#b3b3b3"/>
+            <polygon points="114.09 145.83 106.79 145.22 108.17 110.61 111.76 111.07 110.43 135.88 113.44 140.06 114.14 145.34 114.09 145.83" style="fill:#b3b3b3"/>
+        </g>
+        <g class="basspedal" data-name="basspedal">
+            <rect x="172.9" y="196.68" width="14.64" height="16.05"/>
+            <path d="M7314.26,7167.6v6.47l-14.64.07,1.72-11.86.31-5.2-2-3.62-.78-5.78v-8.12l.78-4.89,2.81-3.9h7.47l3,3.9,1.4,9.4v6.36l-1.48,5.06a11.53,11.53,0,0,0,0,6.07c.18.61.51,1.47.88,2.95A29.17,29.17,0,0,1,7314.26,7167.6Z" transform="translate(-7126.72 -6982.37)"/><rect x="172.9" y="190.9" width="2.96" height="5.78"/>
+            <polygon points="185.01 197.48 185.01 191.69 187.55 191.46 187.55 197.97 185.01 197.48"/>
+        </g>
+        <g id="e39c6e30-677a-4bec-b2b5-d20d239cdf6a" data-name="bassmallet">
+            <rect x="171.67" y="152.05" width="16.33" height="10.27" style="fill:url(#fcde05bb-75d2-4cea-a2b2-5e57250812e5)"/>
+        </g>
+    </g>
+    <g class="drum" id="e3d64e07-1ccc-4c5e-aa20-a6c0534ee380" data-name="floortom">
+        <polygon points="292.7 145.75 255.51 145.75 225.43 167.61 213.94 202.97 225.43 238.34 255.51 260.2 292.7 260.2 322.79 238.34 334.28 202.97 322.79 167.61 292.7 145.75"/>
+        <circle cx="274.11" cy="202.98" r="53.29" style="fill:#fff"/>
+    </g>
+    <g class="drum" id="b7fbf7ef-3c85-4ab9-9d3e-ef7890c2352c" data-name="Snare">
+        <polygon points="134.99 146.82 105.08 146.82 80.88 164.73 71.64 193.72 80.88 222.71 105.08 240.62 134.99 240.62 159.19 222.71 168.43 193.72 159.19 164.73 134.99 146.82"/>
+        <ellipse cx="120.03" cy="193.72" rx="42.87" ry="43.68" style="fill:#fff"/>
+    </g>
+    <g class="drum" id="b46a1724-4167-4f3e-8c1d-caaa61105266" data-name="smalltom">
+        <polygon points="159.61 65.93 135.31 65.93 115.64 79.78 108.13 102.19 115.64 124.6 135.31 138.45 159.61 138.45 179.28 124.6 186.79 102.19 179.28 79.78 159.61 65.93"/>
+        <ellipse cx="147.46" cy="102.19" rx="34.83" ry="33.77" style="fill:#fff"/>
+    </g>
+    <g id="a069201d-2f48-411c-a1db-828ebaa3344c" data-name="HiHat">
+        <rect x="7197.6" y="7205.13" width="13.59" height="16.05" transform="translate(-9978.55 -1444.09) rotate(-35.58)"/>
+        <path d="M7198.59,7193.35l3.76,5.26-11,8-5.6-10.57-2.8-4.4-3.63-1.85-4-4.28-4.73-6.61-2.25-4.39-.16-4.69,5.65-4,4.5,1.58,6.53,6.88,3.7,5.18,1.83,4.91a12.3,12.3,0,0,0,3.53,4.94c.49.4,1.24.92,2.37,1.92S7198.09,7192.81,7198.59,7193.35Z" transform="translate(-7126.72 -6982.37)"/>
+        <rect x="7192.26" y="7204.53" width="2.75" height="5.78" transform="translate(-9977.22 -1451.42) rotate(-35.58)"/>
+        <polygon points="77.09 222.31 73.72 217.61 75.5 216.05 79.28 221.34 77.09 222.31"/>
+        <g class="cymbal" id="fda0bd83-b18c-44de-b8c4-15747b1d4c1a" data-name="HiHat">
+            <circle id="abe43819-1961-415c-b650-f6246b09fb44" data-name="hatmain" cx="40.37" cy="176.19" r="39.37" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#ff5fd459-71e6-4c4a-a547-04178e28cf47)"/>
+            <circle id="eee20036-86a9-44ca-8ee0-ae6a9f8c7b94" data-name="hatplay1" cx="40.72" cy="175.52" r="39.02" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#a85316b5-8db2-4d74-8a48-ef5ac4fcac83)"/>
+            <circle id="b4905a82-4598-4d8c-af2d-93aab5393312" data-name="hatplay2" cx="40.12" cy="176.17" r="39.02" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#bd6cc04a-e92d-401f-921e-de2f1d95ada8)"/>
+            <circle id="ee96677f-adee-4d6c-a67b-823a868e18fd" data-name="hatsmall" cx="40.12" cy="176.54" r="10.15" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#f1c5477e-7a9d-473d-9fb0-a7c97444898b)"/>
+            <circle id="e67bcdf2-cc09-453e-b1c6-c4900ee1ea98" data-name="hatblack" cx="40.12" cy="176.54" r="2.46" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#ba7a6f70-7c08-48e3-a639-64348fafb468)"/>
+        </g>
+    </g>
+    <g class="cymbal" id="f27d95cd-28a1-4b9f-91f6-0afff42e2c66" data-name="Crash">
+        <circle id="afeeb73e-c1fe-42b3-a34a-fa4d43eb47f5" data-name="crashmain" cx="66.4" cy="84.79" r="59.28" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#a5b3335a-46f1-40c4-b16d-3dfd02279f47)"/>
+        <circle id="bc92b48d-4e80-459a-bb88-3b781fb55105" data-name="crashplay1" cx="66.93" cy="83.79" r="58.76" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#eaae2f4d-1ebb-4b9c-80d4-679815522a96)"/>
+        <circle id="fd38bb5d-dbbc-4fcd-aec3-8fb9844370fe" data-name="crashplay2" cx="66.04" cy="84.77" r="58.76" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#bb3f0ce0-9917-4389-9388-76673ed053df)"/>
+        <circle id="b9680846-6e65-46df-a1f6-b84b1ba1c039" data-name="crashsmall" cx="66.04" cy="85.32" r="15.28" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#b88078f3-fcd6-4b7d-bafd-307f57764d89)"/>
+        <circle id="e24dc813-e352-4a11-ad44-2ea88be42a06" data-name="crashblack" cx="66.04" cy="85.32" r="3.7" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#f4d12c02-90c4-4196-8887-7a138474cfab)"/>
+    </g>
+    <g class="cymbal" id="ec8c2668-f0c0-4ea7-9c8e-e7c3b379498c" data-name="Ride">
+        <circle id="bb4ebaee-6aeb-4146-819c-1b61db2b3e49" data-name="ridemain" cx="258.83" cy="73.62" r="72.04" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#a5d9b354-ade3-444b-bdea-8f2b3891541b)"/>
+        <circle id="e73a19fc-27cc-4f0d-adf4-881d3c5e6a99" data-name="ridesmall" cx="258.38" cy="74.26" r="18.57" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;"/>
+        <circle id="be5c99d5-ec84-4aae-9e15-50e3fd23b2a6" data-name="rideblack" cx="258.38" cy="74.26" r="4.49" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#ee5b2e0b-6661-4c3f-beab-67af17d139e4)"/>
+    </g>    
+    <g class="cymbal" id="a272acc0-f142-4cea-9c6c-d08c20ad1d87" data-name="SmCrash">
+        <circle id="fd3e5762-7eca-4d53-8b1c-e22efa9595be" data-name="smcrashmain" cx="315.25" cy="144.59" r="52.1" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#f4c41ea8-1b8a-4eca-8df8-f49cde52c4b9)"/>
+        <circle id="aadb1d00-57cf-4e51-a83c-a0fcf01a19c0" data-name="smcrashsmall" cx="314.93" cy="145.05" r="13.43" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#a24886b5-e8f7-4668-a499-a2d735b3e5ad)"/>
+        <circle id="ba72961d-6bdf-4e57-a868-1c1599defee9" data-name="smcrashblack" cx="314.93" cy="145.05" r="3.25" style="stroke:#ebd065;stroke-miterlimit:10;stroke-width:2px;fill:url(#a0899cd4-7856-48eb-ba5f-ae2ef74a7fa4)"/>
+    </g>
+</svg>
